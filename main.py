@@ -4,7 +4,7 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import silhouette_score
 
-data=pd.read_csv("D:\Internship_Tasks\Prodigy_Infotech_Tasks\Group customers of a retail store_02\Mall_Customers.csv")
+data=pd.read_csv("Mall_Customers.csv")
 
 X=data[['Age','Annual Income (k$)','Spending Score (1-100)']]
 scaler=StandardScaler()
